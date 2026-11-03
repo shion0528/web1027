@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 
+<!-- actual html indentation it's incredible-->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,12 +26,12 @@
     </noscript>
 </head>
 
-<body id="top"><a class="skip-link" href="#main-content">Skip to content</a>
+<body id="top"><a class="skip-link" href="#main-content">Skip to content</a> <!-- anchor should be indented under <body>-->
     <header class="site-header">
         <nav class="navbar navbar-expand-md container" aria-label="Main navigation">
             <a class="navbar-brand" href="index.html"><span class="brand-mark"
                     aria-hidden="true"><i></i><i></i><i></i><i></i></span>Computing for Good<span
-                    class="visually-hidden"> — home</span></a>
+                    class="visually-hidden"> — home</span></a> <!-- is there a way to do this without using 4 empty <i> tags? -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation"
                 aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation"><span
                     class="navbar-toggler-icon"></span></button>
@@ -39,7 +41,7 @@
                     <li class="nav-item"><a class="nav-link" href="health.html">Healthcare</a></li>
                     <li class="nav-item"><a class="nav-link" href="accessibility.html">Accessibility</a></li>
                     <li class="nav-item"><a class="nav-link active" href="environment.html"
-                            aria-current="page">Environment</a></li>
+                            aria-current="page">Environment</a></li> <!-- misindent here?-->
                 </ul>
             </div>
         </nav>
@@ -48,7 +50,7 @@
         <div class="container article-wrap">
             <nav aria-label="Breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li> <!-- use of breadcrumb items here is good for accessibility -->
                     <li class="breadcrumb-item active" aria-current="page">Environment</li>
                 </ol>
             </nav>
@@ -94,7 +96,7 @@
                         <p>Environmental computing helps people ask informed questions and act on evidence with its
                             limits in view.</p>
                     </aside>
-                    <section id="sources" class="sources">
+                    <section id="sources" class="sources"> <!--use of classes here is good for maintenance-->
                         <h2>Read the sources</h2>
                         <p>Explore the official guidance and services behind this story.</p>
                         <ul>
@@ -137,7 +139,7 @@
             </div><a href="#top">Back to top <span aria-hidden="true">↑</span></a>
         </div>
     </footer>
-    <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script> <!--js at bottom, good!-->
 </body>
 
 </html>
